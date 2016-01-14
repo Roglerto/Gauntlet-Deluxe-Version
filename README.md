@@ -3,6 +3,7 @@ The Gauntlet Version that nobody wants let you test
 
 Instructions, come on, you don't need this:
 ->Enemies will hurt you , avoid them or killing them always you can try talk to them with friends life is a better place.
+->Press "Space" to shoots kame ha me has.
 -> Press " W,A,SD" to move or just stay lie , relax and enjoy the views.
 -> Pick potions to earn wonderfull powers, keys to open doors, treasures to be the most rich man that live in a world in which only you exist and food to earn health or jost for the taste .
 ->Press " R,F,V" TO activate potions, only can drink one don't be drinker and their effects will during for 10 seconds.
