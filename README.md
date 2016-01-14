@@ -1,5 +1,5 @@
 # Gauntlet-Deluxe-Version
-The Gauntlet Version that nobody wants let you test
+The Gauntlet Version that nobody wants let you test by Roberto García Rodríguez
 
 Instructions, come on, you don't need this:
 ->Enemies will hurt you , avoid them or killing them always you can try talk to them with friends life is a better place.
