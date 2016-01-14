@@ -1,0 +1,42 @@
+﻿Build started 14/01/2016 10:50:27.
+     1>Project "C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\SDL Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Programas\visual leak detection\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ModuleSceneSpace.cpp
+         ModuleSceneSpace.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulescenespace.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Programas\visual leak detection\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Log.obj
+         Debug\Main.obj
+         Debug\ModuleAudio.obj
+         Debug\ModuleCollision.obj
+         Debug\ModuleEnemy.obj
+         Debug\ModuleEnemyGenerator.obj
+         Debug\ModuleFadeToBlack.obj
+         Debug\ModuleGoLevel2.obj
+         Debug\ModuleGoLevel3.obj
+         Debug\ModuleGoLevel4.obj
+         Debug\ModuleGoLevel5.obj
+         Debug\ModuleInput.obj
+         Debug\ModuleItems.obj
+         Debug\ModuleLevel1.obj
+         Debug\ModuleLevel2.obj
+         Debug\ModuleLevel3.obj
+         Debug\ModuleLevel4.obj
+         Debug\ModuleLevel5.obj
+         Debug\ModuleParticles.obj
+         Debug\ModulePlayer.obj
+         Debug\ModuleRender.obj
+         Debug\ModuleSceneIntro.obj
+         Debug\ModuleSceneSpace.obj
+         Debug\ModuleScore.obj
+         Debug\ModuleSideMenu.obj
+         Debug\ModuleTextures.obj
+         Debug\ModuleWindow.obj
+         Debug\Timer.obj
+         SDL Game.vcxproj -> C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.exe
+     1>Done Building Project "C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\SDL Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44
