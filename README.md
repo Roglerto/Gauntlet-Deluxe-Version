@@ -11,3 +11,6 @@ Instructions, come on, you don't need this:
 ->Some stones can be destroyed just saying.
 ->You can shoot from some corners, the future is here.
 ->Press "Y" to pause the game and call to your mom, you should do that more often.
+
+
+Original Version https://www.youtube.com/watch?v=7mMJio2MO6w
