@@ -10,3 +10,4 @@ Instructions, come on, you don't need this:
 ->Find the exit to the next room and die trying it.
 ->Some stones can be destroyed just saying.
 ->You can shoot from some corners, the future is here.
+->Press "Y" to pause the game and call to your mom, you should do that more often.
