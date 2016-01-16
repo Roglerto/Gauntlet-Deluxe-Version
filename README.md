@@ -14,3 +14,6 @@ Instructions, come on, you don't need this:
 ->Press "Enter" to enter in the Debug mode and see how things work .
 
 Original Version https://www.youtube.com/watch?v=7mMJio2MO6w
+
+
+To play download the folder Game and execute the file "SDL Game - Master 2.exe"
