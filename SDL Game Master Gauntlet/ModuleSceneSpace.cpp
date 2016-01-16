@@ -385,7 +385,7 @@ void ModuleSceneSpace::OnCollision(Collider* c1, Collider* c2)
 		//App->particles->AddParticle(explosion, c1->rect.x, c1->rect.y, COLLIDER_NONE, "w");
 		//App->renderer->Blit(background, c1->rect.x, c1->rect.y, &(explosionani.GetCurrentFrame()));
 	}
-	else if ((c2->type == COLLIDER_PLAYER_SHOT) && (c1->type != COLLIDER_CORNER)){
+	else if ((c2->type == COLLIDER_PLAYER_SHOT) ){
 		explo = true;
 		timeexplosion.Start();
 		posexplosion.x = c2->rect.x;
