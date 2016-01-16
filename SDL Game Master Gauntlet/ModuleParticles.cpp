@@ -81,6 +81,24 @@ void ModuleParticles::OnCollision(Collider* c1, Collider* c2)
 			if (c2->type==COLLIDER_DESTRUCTIBLE_DOOR)
 				aux = (*it)->collider->rect;
 
+
+			if ((c2->type == COLLIDER_CORNER) && ((*it)->orientation == "N") || (*it)->orientation == "S" || (*it)->orientation == "W" || (*it)->orientation == "E"){
+
+				if ((*it)->collider != nullptr)
+					(*it)->collider->to_delete = true;
+
+				RELEASE(*it);
+				it = active.erase(it);
+				break;
+
+			}
+			if ((c2->type == COLLIDER_CORNER) && ((*it)->orientation == "NE") || (*it)->orientation == "SE" || (*it)->orientation == "NW" || (*it)->orientation == "SW"){
+
+			
+				break;
+
+			}
+
 			if ((*it)->collider != nullptr)
 				(*it)->collider->to_delete = true;
 

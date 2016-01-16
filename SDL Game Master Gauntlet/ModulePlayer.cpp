@@ -1428,7 +1428,8 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		App->potion1 = potion1;
 		App->potion2 = potion2;
 		App->potion3 = potion3;
-
+		key = false;
+		key2 = false;
 		App->player->Disable();
 
 		//App->collision->CleanUp();
@@ -1457,7 +1458,8 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		App->potion1 = potion1;
 		App->potion2 = potion2;
 		App->potion3 = potion3;
-
+		key = false;
+		key2 = false;
 		App->player->Disable();
 
 		//App->collision->CleanUp();
@@ -1485,7 +1487,8 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		App->potion1 = potion1;
 		App->potion2 = potion2;
 		App->potion3 = potion3;
-
+		key = false;
+		key2 = false;
 		App->player->Disable();
 
 		//App->collision->CleanUp();
@@ -1513,7 +1516,8 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		App->potion1 = potion1;
 		App->potion2 = potion2;
 		App->potion3 = potion3;
-
+		key = false;
+		key2 = false;
 		App->player->Disable();
 
 		//App->collision->CleanUp();

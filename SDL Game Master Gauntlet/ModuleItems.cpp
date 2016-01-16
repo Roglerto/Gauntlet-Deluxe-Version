@@ -620,7 +620,13 @@ Potion3::~Potion3(){
 }
 
 items::items(){
-	
+	 score = 0;
+	 life = 0;
+	 key2 = false;
+	 key = false;
+	 potion1 = false;
+	 potion2 = false;
+	 potion3 = false;
 }
 
 items::~items(){

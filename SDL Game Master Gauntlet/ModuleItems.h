@@ -40,13 +40,13 @@ struct items{
 	
 	SDL_Rect pos;
 
-	int score=0;
-	int life = 0;
-	bool key2 = false;
-	bool key = false;
-	bool potion1 = false;
-	bool potion2 = false;
-	bool potion3 = false;
+	int score;
+	int life ;
+	bool key2 ;
+	bool key ;
+	bool potion1 ;
+	bool potion2 ;
+	bool potion3 ;
 
 	items();
 	 ~items();
