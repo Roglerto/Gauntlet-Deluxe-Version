@@ -79,6 +79,12 @@ public:
 	ModuleLevel5* scene_level5;
 	ModuleGoLevel5* scene_level5go;
 
+	bool lvl1 = true;
+	bool lvl2 = false;
+	bool lvl3 = false;
+	bool lvl4 = false;
+	bool lvl5 = false;
+
 private:
 
 	std::list<Module*> modules;

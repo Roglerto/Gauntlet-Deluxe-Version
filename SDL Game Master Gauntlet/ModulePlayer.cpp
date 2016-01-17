@@ -1435,7 +1435,11 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		//App->collision->CleanUp();
 		//App->collision->Disable();
 
-
+	    App->lvl1 = false;
+		App->lvl2 = true;
+		App->lvl3 = false;
+		App->lvl4 = false;
+		App->lvl5 = false;
 
 		App->fade->FadeToBlack((Module*)App->scene_level2go, this, 1.0f);
 
@@ -1465,7 +1469,11 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		//App->collision->CleanUp();
 		//App->collision->Disable();
 
-
+		App->lvl1 = false;
+		App->lvl2 = false;
+		App->lvl3 = true;
+		App->lvl4 = false;
+		App->lvl5 = false;
 
 		App->fade->FadeToBlack((Module*)App->scene_level3go, this, 1.0f);
 	}if (c2->type == COLLIDER_EXIT4 && finished == false)
@@ -1494,7 +1502,11 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		//App->collision->CleanUp();
 		//App->collision->Disable();
 
-
+		App->lvl1 = false;
+		App->lvl2 = false;
+		App->lvl3 = false;
+		App->lvl4 = true;
+		App->lvl5 = false;
 
 		App->fade->FadeToBlack((Module*)App->scene_level4go, this, 1.0f);
 	}if (c2->type == COLLIDER_EXIT5 && finished == false)
@@ -1523,7 +1535,11 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		//App->collision->CleanUp();
 		//App->collision->Disable();
 
-
+		App->lvl1 = false;
+		App->lvl2 = false;
+		App->lvl3 = false;
+		App->lvl4 = false;
+		App->lvl5 = true;
 
 		App->fade->FadeToBlack((Module*)App->scene_level5go, this, 1.0f);
 	}
@@ -1572,7 +1588,11 @@ void ModulePlayer::OnCollision(Collider* c1, Collider* c2)
 		//App->collision->CleanUp();
 		//App->collision->Disable();
 
-
+		App->lvl1 = true;
+		App->lvl2 = false;
+		App->lvl3 = false;
+		App->lvl4 = false;
+		App->lvl5 = false;
 
 		App->fade->FadeToBlack((Module*)App->scene_score, this, 1.0f);
 	}

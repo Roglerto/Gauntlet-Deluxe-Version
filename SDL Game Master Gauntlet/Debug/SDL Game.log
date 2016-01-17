@@ -1,9 +1,61 @@
-﻿Build started 16/01/2016 17:41:31.
+﻿Build started 17/01/2016 21:34:10.
      1>Project "C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\SDL Game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Programas\visual leak detection\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ModuleSceneSpace.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Programas\visual leak detection\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Main.cpp ModuleAudio.cpp ModuleCollision.cpp ModuleEnemy.cpp ModuleEnemyGenerator.cpp ModuleFadeToBlack.cpp ModuleGoLevel2.cpp ModuleGoLevel3.cpp ModuleGoLevel4.cpp ModuleGoLevel5.cpp ModuleInput.cpp ModuleItems.cpp ModuleLevel1.cpp ModuleLevel2.cpp ModuleLevel3.cpp ModuleLevel4.cpp ModuleLevel5.cpp ModuleParticles.cpp ModulePlayer.cpp ModuleRender.cpp ModuleSceneIntro.cpp ModuleSceneSpace.cpp ModuleScore.cpp ModuleSideMenu.cpp ModuleTextures.cpp ModuleWindow.cpp
+         ModuleSideMenu.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulesidemenu.cpp(142): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulesidemenu.cpp(143): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+         ModulePlayer.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(425): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(1562): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(1563): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(1613): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleplayer.cpp(1614): warning C4018: '<' : signed/unsigned mismatch
+         ModuleLevel5.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulelevel5.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+         ModuleLevel4.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulelevel4.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+         ModuleLevel3.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulelevel3.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+         ModuleItems.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleitems.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\moduleitems.cpp(274): warning C4018: '<' : signed/unsigned mismatch
+         ModuleEnemyGenerator.cpp
+         ModuleEnemy.cpp
+         Application.cpp
+         Generating Code...
+         Compiling...
+         ModuleScore.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulescore.cpp(111): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulescore.cpp(112): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulescore.cpp(113): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
          ModuleSceneSpace.cpp
      1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulescenespace.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+         ModuleParticles.cpp
+         ModuleLevel2.cpp
+     1>c:\users\roberto\documents\visual studio 2013\projects\sdl game master gauntlet\modulelevel2.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+         ModuleCollision.cpp
+         Main.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         ModuleWindow.cpp
+         ModuleTextures.cpp
+         ModuleSceneIntro.cpp
+         ModuleRender.cpp
+         ModuleLevel1.cpp
+         ModuleInput.cpp
+         ModuleGoLevel5.cpp
+         ModuleGoLevel4.cpp
+         ModuleGoLevel3.cpp
+         ModuleGoLevel2.cpp
+         ModuleFadeToBlack.cpp
+         ModuleAudio.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Programas\visual leak detection\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roberto\Documents\Visual Studio 2013\Projects\SDL Game Master Gauntlet\Debug\SDL Game - Master 2.lib" /MACHINE:X86 Debug\Application.obj
          Debug\Log.obj
@@ -39,4 +91,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.24
+Time Elapsed 00:00:12.76

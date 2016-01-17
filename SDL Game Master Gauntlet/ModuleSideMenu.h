@@ -63,6 +63,7 @@ public:
 	SDL_Color textColor ;
 	SDL_Color textColorlvl;
 	SDL_Color textColorpj;
+	
 };
 
 #endif 

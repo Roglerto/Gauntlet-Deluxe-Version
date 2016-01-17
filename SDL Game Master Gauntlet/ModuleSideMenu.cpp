@@ -55,6 +55,8 @@ ModuleSideMenu::ModuleSideMenu(bool start_enabled) : Module(start_enabled)
 	potion3.w = 20;
 
 	background = &number0;
+
+	
 }
 
 
@@ -140,7 +142,16 @@ update_status ModuleSideMenu::Update()
 	message = TTF_RenderText_Solid(font, itoa(i, buffer, 10), textColor);
 	message2 = TTF_RenderText_Solid(font, itoa(j, buffer, 10), textColor);
 	message3 = TTF_RenderText_Solid(font2, " MiMiCo ", textColorpj);
-	message4 = TTF_RenderText_Solid(font2,  " LEVEL 1 ", textColorlvl);
+	if (App->lvl1==true)
+		message4 = TTF_RenderText_Solid(font2,  " LEVEL 1 ", textColorlvl);
+	else if (App->lvl2==true)
+		message4 = TTF_RenderText_Solid(font2, " LEVEL 2 ", textColorlvl);
+	else if (App->lvl3 == true)
+		message4 = TTF_RenderText_Solid(font2, " LEVEL 3 ", textColorlvl);
+	else if (App->lvl4 == true)
+		message4 = TTF_RenderText_Solid(font2, " LEVEL 4 ", textColorlvl);
+	else if (App->lvl5 == true)
+		message4 = TTF_RenderText_Solid(font2, " LEVEL 5 ", textColorlvl);
 	//apply_surface(0, 0, message, App->window->screen_surface),0,0;
 	
 	return UPDATE_CONTINUE;
