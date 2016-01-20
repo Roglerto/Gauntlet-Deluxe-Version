@@ -1,5 +1,6 @@
 # Gauntlet-Deluxe-Version
-The Gauntlet Version that nobody wants let you test by Roberto García Rodríguez
+The Gauntlet Version that nobody wants let you test by Roberto García Rodríguez.
+This Game was made in 3 weeks using c++ and SDL library.
 
 Instructions, come on, you don't need this:
 
